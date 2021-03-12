@@ -369,6 +369,12 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
+.front-page-img-part{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .front-page-img-part img{
   width: 100%;
 }
@@ -437,17 +443,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .first-page .front-page-content .what-i-can-do .front-page-img-part img{
-  width: 80%;
+  width: 90%;
 }
 
 
 .first-page .front-page-content .what-i-can-do .develop{
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 
 .first-page .front-page-content .what-i-can-do .develop img{
   margin-left: 1rem;
+  margin-top: 2rem;
 }
 
 
@@ -456,6 +463,11 @@ h1, h2, h3, h4, h5, h6 {
 /* -----------i-can-help------------- */
 
 .first-page .front-page-content .i-can-help{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
   margin-top: 4rem;
 }
 
@@ -464,6 +476,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--Roboto);
   letter-spacing: 1px;
   font-size: 1.6rem;
+  line-height: 1.4em;
 
 }
 
@@ -487,7 +500,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .first-page .front-page-content .i-can-help .button button{
-  margin: 10px auto;
+  margin-top: 1rem;
   padding: .1rem 2rem;
   align-items: center;
   color: #000;
@@ -892,7 +905,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #f7f7f7;
   width: 100%;
   color: #000;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
 }
 .portfolio .portfolio-title{
   font-weight: 900;
@@ -930,12 +943,15 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: 4rem;
   width: 27%;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
 .portfolio .portfolio-items .our-project{
   width: 100%;
-  padding: .5rem;
+  padding:2rem  .5rem;
 }
 
 .portfolio .portfolio-items .our-project .img{
@@ -1336,6 +1352,10 @@ background: #4e4949;
     margin-left: 3rem;
 
   }
+
+  .first-page .front-page-content .what-i-can-do .develop img{
+    margin-left: 0rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1376,9 +1396,20 @@ background: #4e4949;
  .portfolio .portfolio-items {
   margin-top: 3rem;
   margin-left: 0rem;
-  width: 100%;
-  padding: 2rem;
- }
+  width: 87%;
+
+}
+
+
+.portfolio .portfolio-row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+
  .portfolio .portfolio-items .our-project .title .a_button {
   margin-left: 0rem; 
  }
@@ -1429,8 +1460,7 @@ background: #4e4949;
 }
 
 .first-page .front-page-content .i-can-help .button button {
-  margin: 22px auto;
-  margin-left: 2rem;
+  margin-top: 4rem;
 }
 .first-page .front-page-content h3::after {
   width: 45vw;
@@ -1470,6 +1500,10 @@ background: #4e4949;
   .portfolio .button-group {
     padding: .3rem;
   }
+
+  .first-page .front-page-content h4 {
+    font-size: 2.3rem;
+}
 }
 
 
@@ -1483,5 +1517,12 @@ background: #4e4949;
   padding: 0 0rem;
 }
 
+}
+
+
+@media screen  and  (max-width:285px){
+  .profile-tab-wrap .profile-tab-menu li a {
+    padding: 1em 1.8rem .5em;
+}
 }
 /* --x------------------media-query-------------------x--- */

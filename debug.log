@@ -1,2 +1,11 @@
 [1114/121724.867:ERROR:crash_report_database_win.cc(469)] failed to stat report
 [1114/121724.867:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1114/123607.153:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1114/123607.153:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1128/134527.344:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1128/134527.345:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1128/134527.345:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1128/134527.346:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[1128/134527.346:ERROR:crash_report_database_win.cc(469)] failed to stat report
+[0131/225946.377:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[0311/023614.569:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
